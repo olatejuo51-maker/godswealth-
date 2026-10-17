@@ -23,9 +23,7 @@ export function HeroSection() {
 
           {/* Sub-headline */}
           <p className="font-sans text-lg md:text-xl text-foreground/70 max-w-2xl mx-auto leading-relaxed">
-            From captivating books and engaging blog posts to high-converting
-            business copy—delivering world-class writing tailored for brands,
-            authors, and businesses.
+            Creative writing, brand narrative, content strategy, and words that help people connect, remember, and act.
           </p>
 
           {/* CTA Buttons */}

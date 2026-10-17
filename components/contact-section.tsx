@@ -19,8 +19,8 @@ export function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would typically send the data to a server
-    console.log('Form submitted:', formData);
+    const message = `Hello Folasekemi, I would like to discuss a project.\n\nName: ${formData.name}\nEmail: ${formData.email}\nProject type: ${formData.projectType}\nDetails: ${formData.details}`;
+    window.open(`https://wa.me/2348101154261?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
     setSubmitted(true);
     setTimeout(() => {
       setSubmitted(false);
@@ -144,16 +144,16 @@ export function ContactSection() {
               Prefer to reach out directly?
             </p>
             <div className="flex flex-col md:flex-row justify-center items-center gap-6 text-sm text-foreground/70">
-              <a href="mailto:hello@godswealth.com" className="hover:text-accent transition-colors">
-                hello@godswealth.com
+              <a href="mailto:greatfolasekemi@gmail.com" className="hover:text-accent transition-colors">
+                greatfolasekemi@gmail.com
               </a>
               <span className="hidden md:block">•</span>
-              <a href="https://www.linkedin.com" className="hover:text-accent transition-colors">
+              <a href="https://wa.me/2348101154261" target="_blank" rel="noreferrer" className="hover:text-accent transition-colors">
+                WhatsApp: +234 810 115 4261
+              </a>
+              <span className="hidden md:block">•</span>
+              <a href="https://linkedin.com/in/folasekemi-bolanle-8a93523b4" target="_blank" rel="noreferrer" className="hover:text-accent transition-colors">
                 LinkedIn
-              </a>
-              <span className="hidden md:block">•</span>
-              <a href="https://www.twitter.com" className="hover:text-accent transition-colors">
-                Twitter
               </a>
             </div>
           </div>

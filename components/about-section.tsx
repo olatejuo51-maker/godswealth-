@@ -19,17 +19,10 @@ export function AboutSection() {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="space-y-6 text-foreground/80">
               <p className="text-lg leading-relaxed">
-                I&apos;m a versatile writer who bridges the gap between creative
-                storytelling and strategic business intellect. Whether you need
-                captivating narratives that engage readers or persuasive copy
-                that converts clients, I bring the same level of expertise and
-                attention to detail to every project.
+                I&apos;m Folasekemi Bolanle: creative writer, brand narrative strategist, public speaker, and founder of GOD&apos;S WEALTH Writing Services. I help individuals and businesses communicate with clarity, intention, and memorability.
               </p>
               <p className="text-lg leading-relaxed">
-                My background spans creative writing, content marketing, and
-                brand copywriting—giving me a unique ability to understand your
-                audience and craft messaging that resonates. I don&apos;t just
-                write; I write with purpose.
+                My work sits at the intersection of writing, storytelling, creativity, and psychology-informed communication. As a Psychology undergraduate at FUOYE, I&apos;m especially interested in how language shapes connection and behaviour.
               </p>
             </div>
 
